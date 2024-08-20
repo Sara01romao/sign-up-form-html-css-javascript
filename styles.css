@@ -1,0 +1,22 @@
+:root {
+    --cor-rosa: #FF69B4;
+    --cor-verde: #32CD32;
+    --cor-roxo: #8A2BE2;
+    --cor-preto: #000000;
+    --cor-background:#FF7979;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:var(--cor-background);
+    background-image: url('./imgs/bg-intro-desktop.png');
+    font-family: "Poppins", sans-serif;
+
+}
+
