@@ -1,1 +1,1 @@
-# sign-up-form-html-css-javascrit
+# sign-up-form-html-css-javascript
