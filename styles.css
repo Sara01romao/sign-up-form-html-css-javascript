@@ -120,18 +120,38 @@ body{
     color: var(--black);
 }
 
-.erro-input{
+.input-container svg{
+    display: none;
+}
+
+
+.erro-message{
     font-size: 11px;
     color: var(--pink);
     text-align: end;
     margin-top: 6px;
+    display: none;
     
 
 }
 
-.campo-container .input-container.active{
+
+.campo-container.active .input-container{
     border: 2px solid var(--pink);
+}
+
+
+
+.campo-container.active input{
     color: var(--pink);
+}
+
+.campo-container.active svg{
+    display: block;
+}
+
+.campo-container.active .erro-message{
+    display: block;
 }
 
 

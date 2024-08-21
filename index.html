@@ -27,7 +27,7 @@
                 <form action="">
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" id="first-name" onchange="validateInput('first-name' )">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
@@ -38,46 +38,14 @@
                         </div>
                        
 
-                        <p class="erro-input">First Name cannot be empty</p>
-                            
-                    </div>
-                    <div class="campo-container">
-                        <div class="input-container active">
-                            <input type="text" placeholder="Last Name">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="Group 11">
-                                <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
-                                <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
-                                <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
-                                </g>
-                            </svg>
-                        </div>
-                       
-
-                        <p class="erro-input">Last Name cannot be empty</p>
-                            
-                    </div>
-                    <div class="campo-container">
-                        <div class="input-container">
-                            <input type="text" placeholder="Email Address">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="Group 11">
-                                <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
-                                <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
-                                <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
-                                </g>
-                            </svg>
-                        </div>
-                       
-
-                        <p class="erro-input">Looks like this is not an email</p>
+                        <p class="erro-message">First Name cannot be empty</p>
                             
                     </div>
 
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="Password">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <input type="text" placeholder="Last Name" id="last-name" onchange="validateInput('last-name' )">
+                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
                                 <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
@@ -87,20 +55,54 @@
                         </div>
                        
 
-                        <p class="erro-input">Password cannot be empty</p>
+                        <p class="erro-message">Last Name cannot be empty</p>
                             
                     </div>
-                   
 
-                   
+                    <div class="campo-container">
+                        <div class="input-container">
+                            <input type="text" placeholder="Email Address" id="email-address" onchange="validateInput('email-address' )">
+                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group 11">
+                                <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+                                <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+                                <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+                                </g>
+                            </svg>
+                        </div>
+                       
 
-                    <button class="btn-claim">CLAIM YOUR FREE TRIAL</button>
+                        <p class="erro-message">Looks like this is not an email</p>
+                            
+                    </div>
+
+                    <div class="campo-container">
+                        <div class="input-container">
+                            <input type="text" placeholder="Password" id="password" onchange="validateInput('password' )">
+                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group 11">
+                                <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+                                <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+                                <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+                                </g>
+                            </svg>
+                        </div>
+                       
+
+                        <p class="erro-message">Password cannot be empty</p>
+                            
+                    </div>
+
+
+                    <button class="btn-claim" >CLAIM YOUR FREE TRIAL</button>
                     <p class="txt-terms">By clicking the button, you are agreeing to our <a> Terms and Services</a></p>
                   
                 </form>
             </div>
         </div>
     </main>
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
