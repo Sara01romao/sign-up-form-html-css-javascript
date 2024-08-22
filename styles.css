@@ -228,6 +228,11 @@ body{
     color: #fff;
     margin-bottom: 8px;
     cursor:pointer;
+    transition: 0.3s ease-in;
+}
+
+.btn-claim:hover{
+   background: #4ae09f;
 }
 
 .txt-terms{
