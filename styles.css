@@ -168,7 +168,12 @@ body{
     outline: 0;
     color: var(--black);
     font-weight: 600;
+    background: transparent;
     
+}
+
+.input-container input:focus{
+    background: transparent;
 }
 
 .input-container input::placeholder{
