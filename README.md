@@ -16,7 +16,6 @@
 
 PÁGINA DE ASSINATURA - foi desenvolvida com o objetivo de oferecer uma assinatura simples para novos usuários, informando o período de teste gratuito de 7 dias e uma assinatura de $20/mês após o período. O design responsivo garante um processo de inscrição rápido e fácil em qualquer dispositivo, com validação de erros nos campos do formulário.
 
-<br>
 Fonte: Desafio Frontend Mentor
 
 <a href="https://sara01romao.github.io/sign-up-form-html-css-javascript/" target="_blank"><strong>Acessar »</strong></a>
