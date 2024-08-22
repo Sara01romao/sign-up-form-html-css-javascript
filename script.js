@@ -70,15 +70,24 @@ function validateInputSubmit(inputs) {
 
         if (!isValid) {
             container.classList.add('active');
+            allValid = false;
         } else {
             container.classList.remove('active');
         }
     });
 
+    var confirmClaim= document.querySelector('.messagem-confirm')
+
     if (allValid) {
+        confirmClaim.classList.add('active')
         inputs.forEach(input => {
             input.value = ''; 
         });
+
+        setTimeout(() => {
+           
+            confirmClaim.classList.remove('active')
+        }, 2000);
         console.log('Todos os campos são válidos e foram limpos.');
     }
 

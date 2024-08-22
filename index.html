@@ -19,15 +19,24 @@
         </div>
 
         <div  class="form-container">
+           
+
             <div class="txt-value">
                 <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
             </div>
 
             <div class="form-item">
+                <div class="messagem-confirm">
+                    <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M75 37.5C75 58.2107 58.2107 75 37.5 75C16.7893 75 0 58.2107 0 37.5C0 16.7893 16.7893 0 37.5 0C58.2107 0 75 16.7893 75 37.5ZM33.1624 57.3559L60.985 29.5334C61.9297 28.5886 61.9297 27.0567 60.985 26.1119L57.5636 22.6905C56.6188 21.7456 55.0869 21.7456 54.142 22.6905L31.4516 45.3807L20.858 34.7871C19.9133 33.8424 18.3814 33.8424 17.4364 34.7871L14.015 38.2086C13.0703 39.1533 13.0703 40.6852 14.015 41.63L29.7408 57.3558C30.6857 58.3007 32.2175 58.3007 33.1624 57.3559Z" fill="#38CC8B"/>
+                    </svg>
+                        
+                        
+                </div>
                 <form action="">
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="First Name" id="first-name" onchange="validateInput('first-name' )">
+                            <input type="text" autocomplete="off" placeholder="First Name" id="first-name" onchange="validateInput('first-name' )" required>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
@@ -44,7 +53,7 @@
 
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="Last Name" id="last-name" onchange="validateInput('last-name' )">
+                            <input type="text" autocomplete="off" placeholder="Last Name" id="last-name" onchange="validateInput('last-name' )" required>
                             <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
@@ -61,7 +70,7 @@
 
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="Email Address" id="email-address" onchange="validateInput('email-address' )">
+                            <input type="email" autocomplete="off" placeholder="Email Address" id="email-address" onchange="validateInput('email-address' )" required>
                             <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
@@ -78,7 +87,7 @@
 
                     <div class="campo-container">
                         <div class="input-container">
-                            <input type="text" placeholder="Password" id="password" onchange="validateInput('password' )">
+                            <input type="password" autocomplete="off" placeholder="Password" id="password" onchange="validateInput('password' )" required>
                             <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="Group 11">
                                 <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
@@ -100,7 +109,10 @@
                 </form>
             </div>
         </div>
+        
     </main>
+
+    
 
     <script src="./script.js"></script>
     
